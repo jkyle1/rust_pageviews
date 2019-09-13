@@ -22,7 +22,11 @@ pub struct DbConn(diesel::MysqlConnection);
 
 fn main() {
     rocket::ignite()
-        .mount("/", routes![/* TODO */]
+        .mount("/", routes![
+        routes::index,
+        routes::create_page_view,
+        routes::list_page_views,
+        ])
             .attach(DbConn::fairing())
             .launch();
 }
