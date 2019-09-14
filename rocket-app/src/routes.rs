@@ -34,4 +34,3 @@ pub fn list_page_views(conn:DbConn) -> Result<Json<Vec<PageView>>, String> {
  "Error querying page views from the database".into()
     }).map(Json)
 }
-)
