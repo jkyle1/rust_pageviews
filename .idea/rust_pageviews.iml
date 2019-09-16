@@ -6,6 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rocket-app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rocket-app/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rocket-app/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rocket-app/benches" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/rocket-app/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
